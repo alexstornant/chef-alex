@@ -1,4 +1,136 @@
 body {
     margin: 0;
     background: #F2F2F2;
+    font-family: cursive;
+    font-size: 60px;
 }
+
+/* Removes Scrollbar, keep? */
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Home Page */
+.header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    max-height: 100px;
+    margin: 0 10px;
+}
+
+.main-dishes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.main-dish {
+    background: lightblue;
+    height: 550px;
+    width: 400px;
+}
+
+.meals {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.meal {
+    text-align: center;
+    background: lightcoral;
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.about-me div {
+    /* margin: 0px 100px; */
+    background: yellow;
+    height: 550px;
+    width: 400px;
+}
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer div {
+    background: rebeccapurple;
+    height: 100px;
+    width: 200px;
+}
+/* Home Page */
+
+/* Meals Page */
+.meal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.meal-header img {
+    max-height: 100px;
+    margin: 0 10px;
+}
+
+.meal-header p{
+    font-family: Stencil Std, fantasy;
+}
+
+.row {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    padding: 20px 30px 20px 30px;
+}
+
+.recipe-1 {
+    flex: 1.5;
+    background-color: #ff5733;
+    border: 2px solid #1A1A1A;
+    border-radius: 20px;
+}
+
+.recipe-2 {
+    flex: 1;
+    background-color: green;
+    border: 2px solid #1A1A1A;
+    border-radius: 20px;
+}
+
+.recipe-name {
+    text-align: center;
+}
+/* Meals Page */
+
