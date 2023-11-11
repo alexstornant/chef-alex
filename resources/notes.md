@@ -12,7 +12,16 @@ https://alexandracooks.com/
 
 ### Dinner
 - Tomato Pasta with Zuchhini
+- Eva's pasta
 
 ### Dessert
 - Rice Krispie Treats
 - Churros
+- Meringues
+
+
+### Apetizer? 
+- Guac
+
+
+# Take recomendations/credits
