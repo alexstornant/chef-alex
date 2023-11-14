@@ -1,15 +1,11 @@
 body {
     margin: 0;
     background: #F2F2F2;
-    font-family: futura;
+    /* font-family: fansong; */
     font-size: 60px;
     color: #333333;
+    letter-spacing: 3px;
 }
-
-/* Removes Scrollbar, keep?
-body::-webkit-scrollbar{
-    display: none;
-  } */
 
 a {
     color: inherit;
@@ -32,11 +28,10 @@ a:visited {
 
 .header img {
     max-height: 100px;
-    margin: 0 10px;
+    margin: 0 10px 10px 10px;
 }
 
 .header-text {
-    color: #1A1A1A;
     font-family: cursive;
 }
 
@@ -57,7 +52,10 @@ a:visited {
 } */
 
 /* TODO LOOK AT THIS FOR SCREEN SIZE ADJUSTING */
-/* @media screen and (max-width: 600px) {
+/* @media screen and (max-width: 992px) {
+    html, body {
+        overflow-x: hidden;
+      }
     body {
         margin: 0;
     }
@@ -65,7 +63,6 @@ a:visited {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
   } */
 
@@ -74,23 +71,23 @@ a:visited {
     align-items: center;
     justify-content: center;
     gap: 1em;
-    /* margin-top: 20px; */
-    margin: 20px 50px 0 50px;
+    margin: 20px 50px 30px 50px;
+    /* height: 600px; */
+    /* overflow-y: hidden; */
 }
 
-.main-dishes a {
-    background: lightblue;
+.main-dishes a img {
     height: 500px;
-    width: 333px;
-    border-radius: 5px;
-}
-
-.main-dishes a img{
-    background: lightblue;
-    height: 100%;
     max-width: 333px;
     width: auto;
     border-radius: 5px;
+}
+
+.main-dishes a p {
+    margin: -10px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
 }
 
 .meals {
@@ -98,37 +95,23 @@ a:visited {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    margin: 40px 50px 0 50px;
+    margin: 20px 50px 60px 50px;
 }
 
 .meal {
     text-align: center;
     background: #B6CEB2;
+    border: 2px solid #6d8269;
     height: 100px;
     width: 250px;
+    min-width: 195px;
     font-size: 40px;
     border-radius: 20px;
 }
 
 .meal p {
-    margin: 23px 0;
+    margin: 27px 0;
     color: #333333;
-}
-
-.main-names {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-}
-
-.main-names div {
-    width: 333px;
-    text-align: center;
-    font-size: 30px;
-    /* margin-top: -10px; */
-    letter-spacing: 2px;
-    /* background: #F2F2F2; */
 }
 
 .about-me {
@@ -141,6 +124,7 @@ a:visited {
 .about-me-img {
     width: auto;
     height: 500px;
+    border-radius: 5px;
 }
 
 .about-me-desc {
@@ -149,18 +133,18 @@ a:visited {
 }
 
 .footer {
-    margin: 40px 0 0 0;
+    background: #B6CEB2;
+    border-top: 3px solid #6d8269;
+    margin: 55px 0 0 0;
     padding: 40px 0 40px 0;
     display: flex;
     justify-content: center;
     gap: 1em;
-    background: #B6CEB2;
 }
 
 .footer p {
     margin: 0;
     font-size: 30px;
-    color: #333333;
 }
 /* Home Page */
 
@@ -178,10 +162,6 @@ a:visited {
     margin: 0 10px;
 }
 
-.meal-header p{
-    font-family: Stencil Std, fantasy;
-}
-
 .row {
     display: flex;
     justify-content: center;
@@ -189,11 +169,18 @@ a:visited {
     margin: 20px 0;
 }
 
+.row a p {
+    margin: -10px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+}
+
 .recipe-card {
     height: 500px;
     width: 333px;
     object-fit: cover;
     background: red;
+    border-radius: 5px;
 }
 /* Meals Page */
 
@@ -202,28 +189,39 @@ a:visited {
 .recipe-about {
     display: flex;
     justify-content: center;
-    margin: 0 15%;
+    margin: 0 150px 0 200px;
 }
 
 .recipe-text {
     margin-left: 30px;
-    max-height: 500px;
+    max-height: 610px;
+    width: auto;
 }
 
 .recipe-title {
-    font-size: 80px;
+    font-size: 70px;
     margin: 60px 0 0 0;
 }
 
 .recipe-desc {
-    font-size: 2vw;
+    font-size: 35px;
     line-height: 1.5;
+    /* max-width: 800px; */
 }
 
 .recipe-img {
     height: 550px;
     margin: 60px 0 0 0;
     border-radius: 5px;
+}
+
+.prep p {
+    /* background: #B6CEB2; */
+    /* border: 2px solid #6d8269; */
+    border-radius: 20px;
+    text-align: center;
+    gap: 1em;
+    font-size: 30px;
 }
 
 .instructions-title {
@@ -262,11 +260,24 @@ a:visited {
     font-size: 30px;
 }
 
-.credits {
-    font-size: 40px;
-    /* color: #a9a9a9; */
+.personal-pics-header {
     text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.personal-pics {
+    display: flex;
+    justify-content: center;
+}
+
+.personal-pics img{
+    border-radius: 10px;
+}
+
+.more {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 /* Recipe Page */
-
