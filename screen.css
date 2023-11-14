@@ -5,7 +5,6 @@ html, body {
 body {
     margin: 0;
     background: #F2F2F2;
-    /* font-family: fansong; */
     font-size: 60px;
     color: #333333;
     letter-spacing: 3px;
@@ -44,6 +43,7 @@ a:visited {
 }
 
 .header-text {
+    -webkit-font-smoothing: subpixel-antialiased !important;
     font-family: cursive;
 }
 
