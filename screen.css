@@ -374,6 +374,10 @@ a:visited {
         font-size: 20px;
     }
 
+    .footer {
+        gap: 0;
+    }
+
 }
 
 @media (max-width: 590px) {    
@@ -421,6 +425,8 @@ a:visited {
     .about-me img {
         max-width: 400px;
     }
+
+    
 
     .footer p {
         font-size: 20px;
