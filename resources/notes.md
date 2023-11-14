@@ -26,10 +26,10 @@ https://alexandracooks.com/
 - Natalie's Guac
 
 # Todo
+- image pop out
 - suggestion page
     - email sender
 - make mobile frendly
-    - home page
     - meal page (breakfast, dinner, etc)
     - recipe page (rice krispie, etc)
     - suggestion page
