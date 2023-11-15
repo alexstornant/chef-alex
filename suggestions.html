@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="screen.css">
     <link rel="icon" href="./resources/icon.png" type="image/x-icon">
     <meta name="author" content="Alex Stornant">
+    
   </head>
   <body>
     <header class="header">
@@ -17,11 +18,48 @@
     </header>
     <p class="welcome">Suggestions</p>
 
+    <form id="recipeForm" class="suggestion-form">
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="recipeName">Recipe Name</label>
+        <input type="text" id="recipeName" name="recipeName" required>
+      </div>
+
+      <div>
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+      </div>
+
+      <div>
+        <label for="directions">Directions</label>
+        <textarea id="directions" name="directions" rows="4" required></textarea>
+      </div>
+
+      <div>
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+      </div>
+
+      <div>
+        <input class="grow-on-hover" type="button" onclick="submitForm()" value="Submit">
+      </div>
+      <script src="index.js"></script>
+  </form>
+
     <section class="footer">
-      <p>Created by Alex Stornant</p>
       <p>Thank you for submitting a recipe!</p>
     </section>
 
-    <script type="module" src="index.js"></script>
+    
   </body>
 </html>
