@@ -551,7 +551,7 @@ textarea {
 
     .recipe-img {
         margin-top: 20px;
-        width: 400px;
+        width: 350px;
     }
 
     .recipe-title {
@@ -662,6 +662,7 @@ textarea {
 
     .recipe-img {
         margin-top: 20px;
+        height: 450px;
         width: 300px;
     }
 
