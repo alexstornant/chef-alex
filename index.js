@@ -1,5 +1,4 @@
 // index.js
-
 function submitForm() {
     var form = document.getElementById("recipeForm");
 
