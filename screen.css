@@ -296,6 +296,7 @@ a:visited {
 /* Recipe Page */
 
 @media (max-width: 1130px) {
+    /* Home Page */
     .main-dishes a img {
         height: 400px;
         max-width: 250px;
@@ -313,12 +314,30 @@ a:visited {
     .meal p {
         margin: 18px 0;
     }
+    /* Home Page */
+
+    /* Meal Page */
+        .row {
+            gap: 0.75em;
+        }
+
+        .recipe-card {
+            width: 250px;
+            height: 400px;
+        }
+    /* Meal Page */
+
 }
 
 @media (max-width: 900px) {
+    /* Home Page */
+    .main-dishes {
+        gap: 0.5em;
+    }
+
     .main-dishes a img {
-        height: 350px;
-        width: 200px;
+        height: 375px;
+        width: 220px;
     }
 
     .main-dishes a p {
@@ -349,16 +368,47 @@ a:visited {
     .about-me-img {
         height: 400px;
     }
+    /* Home Page */
+
+    /* Meal Page */
+    .meal-header {
+        margin: 0;
+    }
+    
+    .meal-header img {
+        height: 75px;
+    }
+
+    .meal-header p {
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .row {
+        gap: 0.45em;
+    }
+
+    .recipe-card {
+        width: 220px;
+        height: 375px;
+    }
+
+    .row a p {
+        font-size: 20px;
+    }
+    /* Meal Page */
 }
 
 
+
 @media (max-width: 724px) {
+    /* Home Page */
     .main-dishes {
         gap: 0.5em;
     }
     .main-dishes a img {
         width: 175px;
-        height: 325px;
+        height: 315px;
     }
 
     .main-dishes a p {
@@ -376,10 +426,41 @@ a:visited {
     .footer {
         gap: 0;
     }
+    /* Home Page */
+
+    /* Meal Page */
+    .meal-header {
+        margin: 0;
+    }
+    
+    .meal-header img {
+        height: 60px;
+    }
+
+    .meal-header p {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .row {
+        margin-top: 0;
+        gap: 0.45em;
+    }
+
+    .recipe-card {
+        width: 175px;
+        height: 315px;
+    }
+
+    .row a p {
+        font-size: 15px;
+    }
+    /* Meal Page */
 
 }
 
-@media (max-width: 590px) {    
+@media (max-width: 590px) {  
+    /* Home Page */  
     .header-text {
         font-size: 40px;
     }
@@ -425,10 +506,25 @@ a:visited {
         max-width: 400px;
     }
 
-    
-
     .footer p {
         font-size: 20px;
     }
+    /* Home Page */
 
+    /* Meal Page */
+    .row {
+        flex-direction: column;
+        gap: 0.2em;
+        align-items: center;
+    }
+
+    .recipe-card {
+        width: 300px;
+        height: 450px;
+    }
+
+    .row a p {
+        font-size: 25px;
+    }
+    /* Meal Page */
 }
