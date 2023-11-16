@@ -181,6 +181,10 @@ a:visited {
     margin: 0 100px;
 }
 
+.recipe-about ul {
+    list-style: none;
+}
+
 .recipe-title {
     font-size: 70px;
     margin: 0;
@@ -587,7 +591,7 @@ textarea {
         align-items: center;
         margin: 0 50px;
     }
-
+    
     .recipe-about ul {
         text-align: center;
         margin: 0;

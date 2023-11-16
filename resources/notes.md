@@ -1,7 +1,6 @@
 # Notes
-## Color Pallete Ideas: 
-https://www.schemecolor.com/black-white-brown.php
-https://alexandracooks.com/
+https://dashboard.emailjs.com/admin
+https://validator.w3.org/
 
 ## Recipes
 ### Breakfast
@@ -26,12 +25,4 @@ https://alexandracooks.com/
 - Natalie's Guac
 
 # Todo
-- image pop out
-- suggestion page
-    - email sender
-- make mobile frendly
-    - meal page (breakfast, dinner, etc)
-    - recipe page (rice krispie, etc)
-    - suggestion page
 - validate HTML
-- about me description
