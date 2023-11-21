@@ -4,13 +4,15 @@ https://validator.w3.org/
 
 ## Recipes
 ### Breakfast
-- Waffles
+crepes
+https://www.tiktok.com/@freyadish/video/7190114247127387435
 
 ### Lunch
-- Pesto Chicken Sandwhich
+- Pesto Chicken Sandwich
+- Quesadilla
 
 ### Dinner
-- Tomato Pasta with Zuchhini
+- Tomato Pasta with Zucchini
 - Eva's pasta
 - Tik Tok Chicken
 - Smashed potatoes
