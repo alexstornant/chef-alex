@@ -4,8 +4,8 @@ https://validator.w3.org/
 
 ## Recipes
 ### Breakfast
-crepes
-https://www.tiktok.com/@freyadish/video/7190114247127387435
+- crepes
+- smoothie bowl
 
 ### Lunch
 - Pesto Chicken Sandwich
